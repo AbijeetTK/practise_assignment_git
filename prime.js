@@ -8,11 +8,11 @@ if(num%i==0)
 count++;
 }
 }
-if(count==3)
+if(count==2)
 {
-console.log("Prime");
+console.log("It is a Prime Number");
 }
 else
 {
-console.log("Not Prime");
+console.log("Not a Prime Number");
 }
