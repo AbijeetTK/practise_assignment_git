@@ -10,13 +10,13 @@ check =false;
 break;
 }
 }
-return check;
-}
-if(checkprime(num)==true)
+
+if(count==2)
 {
-console.log("It is Prime.");
+console.log("It is a Prime Number");
 }
 else
 {
-console.log("It is not prime");
+console.log("Not a Prime Number");
 }
+
