@@ -1,18 +1,22 @@
 #Prime
-let num=17;
-let count=0;
-for(let i=1;i<=num;i++)
+let num=27;
+ function checkprime(num){
+let check=true;
+for(let i=2;i<num;i++)
 {
 if(num%i==0)
 {
-count++;
+check =false;
+break;
 }
 }
-if(count==3)
+return check;
+}
+if(checkprime(num)==true)
 {
-console.log("Prime");
+console.log("It is Prime.");
 }
 else
 {
-console.log("Not Prime");
+console.log("It is not prime");
 }
